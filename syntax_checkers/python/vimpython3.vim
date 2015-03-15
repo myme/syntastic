@@ -20,7 +20,7 @@ set cpo&vim
 
 function! SyntaxCheckers_python_vimpython3_IsAvailable() dict " {{{1
     if has('python3')
-        python import vim
+        python3 import vim
         return 1
     endif
     return 0
